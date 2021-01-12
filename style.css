@@ -1,3 +1,9 @@
+:root {
+  --republican-color: rgb(206, 13, 3); 
+  --democrat-color: rgb(13, 13, 201);
+  --winner-color: rgb(170, 0, 186);
+}  
+
 .page {
   width: 80%;
   max-width: 960px;
@@ -56,19 +62,19 @@ th, td {
   color: white;
 }
 #countryResults th {
-  background-color: #f16059;
+  background-color: var(--winner-color);
   color: white;
 }
 .name-1 {
-  background-color: rgb(132,17,11);
+  background-color: var(--republican-color);
   color: white;
 }
 .name-2 {
-  background-color: rgb(245, 141, 136);
+  background-color: var(--democrat-color);
   color: white;
 }
 .winner {
-  background-color: #f16059;
+  background-color: var(--winner-color);
   color: white;
 }
 
@@ -79,6 +85,6 @@ footer p {
   text-transform: uppercase;
 }
 footer span {
-  color: #f16059;
+  color: var(--winner-color);
   padding: 0 5px;
 }
