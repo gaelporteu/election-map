@@ -1,6 +1,6 @@
 :root {
-  --republican-color: rgb(206, 13, 3); 
-  --democrat-color: rgb(13, 13, 201);
+  --habsFans-color: rgb(206, 13, 3); 
+  --leafsFans-color: rgb(13, 13, 201);
   --winner-color: rgb(170, 0, 186);
 }  
 
@@ -66,11 +66,11 @@ th, td {
   color: white;
 }
 .name-1 {
-  background-color: var(--republican-color);
+  background-color: var(--habsFans-color);
   color: white;
 }
 .name-2 {
-  background-color: var(--democrat-color);
+  background-color: var(--leafsFans-color);
   color: white;
 }
 .winner {
